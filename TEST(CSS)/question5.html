@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+@media (max-width: 300px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdWY65dgM7Le5-lY9aWIX_17_l9LNhko6VEw&s" alt="Image 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKqhkd5ubhibqBqbkr9_73G9TFHZ8O0N2qTg&s" alt="Image 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyazaDhF07izNmh8C5E42EDvurIbFHoN91UA&s" alt="Image 3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP3A9Cb804Lgo0q9E1CBWz-FUZ3GGS-FDlBQ&s" alt="Image 4"> 
+    </div>
+</body>
+</html>
